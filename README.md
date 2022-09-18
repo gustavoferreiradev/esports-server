@@ -13,7 +13,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O projeto tem como finalidade, ser um cadastro e buscas de jogadores que desejam jogar online pela Twitch e interagir pelo Discord.
+O projeto tem como finalidade, ser um cadastro de buscas de jogadores online, disponibilizando o contato pelo Discord e tendo a visão dos melhores dias e horários com disponibilidade para iniciar partidas.
 
 ## 🚀 Como executar
 
