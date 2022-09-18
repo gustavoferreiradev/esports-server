@@ -17,12 +17,12 @@ O projeto tem como responsabilidade gerar um certificado para um usuário e a po
 
 ## 🚀 Como executar
 
-- Clone o repositório e acesso o diretório
+- Clone o repositório e acesse o diretório
 
 ### Para rodar localmente
 
-- Rode `npm install` para instalar as dependências
-- Rode, em outro terminal, o `npm run dev` para iniciar a aplicação em ambiente local
+- Rode `npm install` para instalar as dependências;
+- Rode, em outro terminal, o `npm run dev` para iniciar a aplicação em ambiente local;
 
 ## 📄 Licença
 
