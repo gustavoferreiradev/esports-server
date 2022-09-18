@@ -13,7 +13,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O projeto tem como responsabilidade gerar um certificado para um usuário e a possibilidade de pesquisar a validade de um certificado.
+O projeto tem como finalidade, ser um cadastro e buscas de jogadores que desejam jogar online pela Twitch e interagir pelo Discord.
 
 ## 🚀 Como executar
 
