@@ -1,5 +1,15 @@
+<h1 align="center">
+  <img alt="eSports" title="eSports" src=".github/Logo.png" />
+</h1>
+
 <p align="center">
-  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=8257E5&labelColor=000000">
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=996DFF&labelColor=000000">
+</p>
+
+<br>
+
+<p align="center">
+  <img alt="eSports" src=".github/esports-mobile.png" width="100%">
 </p>
 
 ## ✨ Tecnologias
