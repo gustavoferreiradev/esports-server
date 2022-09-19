@@ -8,10 +8,6 @@
 
 <br>
 
-<p align="center">
-  <img alt="eSports" src=".github/esports-mobile.png" width="100%">
-</p>
-
 ## ✨ Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
