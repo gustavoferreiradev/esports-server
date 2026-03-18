@@ -69,16 +69,36 @@ app.get("/games/:id/ads", async (request, response) => {
     },
   });
 
-  return response.json(
-    ads.map((ad) => {
-      return {
-        ...ad,
-        weekDays: ad.weekDays.split(","),
-        hourStart: convertMinutesToHourString(ad.hourStart),
-        hourEnd: convertMinutesToHourString(ad.hourEnd),
-      };
-    })
-  );
+  interface AdResponse {
+    id: string;
+    name: string;
+    weekDays: string[];
+    useVoiceChannel: boolean;
+    yearsPlaying: number;
+    hourStart: string;
+    hourEnd: string;
+  }
+
+  interface AdFromDatabase {
+    id: string;
+    name: string;
+    weekDays: string;
+    useVoiceChannel: boolean;
+    yearsPlaying: number;
+    hourStart: number;
+    hourEnd: number;
+  }
+
+    return response.json(
+      ads.map((ad: AdFromDatabase): AdResponse => {
+        return {
+          ...ad,
+          weekDays: ad.weekDays.split(","),
+          hourStart: convertMinutesToHourString(ad.hourStart),
+          hourEnd: convertMinutesToHourString(ad.hourEnd),
+        };
+      })
+    );
 });
 
 app.get("/ads/:id/discord", async (request, response) => {
